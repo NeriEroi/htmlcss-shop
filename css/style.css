@@ -1,6 +1,6 @@
 .container {
     width: 1000px;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 .image-container {
@@ -24,6 +24,14 @@
 .image-container:hover img.turn-image {
     display: block;
 }
+
+/* blocco terza immagine della prima riga */
+
+.row1 .image-container:nth-child(3) img {
+    display: inline-block;
+}
+
+/* / blocco terza immagine della prima riga */
 
 #discount, #sustainable, #last-sustainable {
     color: white;
