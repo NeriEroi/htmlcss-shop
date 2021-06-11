@@ -1,37 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .container {
     width: 1000px;
     margin: 15px auto;
 }
 
-.image-container {
-    width: 33%;
-    display: inline-block;
-    position: relative;
+.row {
+    height: 50%;
 }
 
-.image-container img {
+.item {
+    width: 33%;
+    background-color: white;
+    position: relative;
+    display: inline-block;    
+}
+
+div.image img {
     width: 100%;
 }
 
-.image-container:hover img {
+div.image img:last-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+div.image:hover img:last-child {
     display: none;
 }
-
-.image-container img.turn-image {
-    display: none;
-}
-
-.image-container:hover img.turn-image {
-    display: block;
-}
-
-/* blocco terza immagine della prima riga */
-
-.row1 .image-container:nth-child(3) img {
-    display: inline-block;
-}
-
-/* / blocco terza immagine della prima riga */
 
 #discount, #sustainable, #last-sustainable {
     color: white;
@@ -39,34 +40,35 @@
 
 #discount {
     position: absolute;
-    top: 430px;
-    background-color: orangered;
+    background-color: #e7072d;
+    left: 0;
+    bottom: 80px;
     padding: 5px;
-}
-
-#sustainable, #last-sustainable {
-    position: absolute;
-    top: 430px;
-    background-color:lightseagreen;
-    padding: 5px;
-
 }
 
 #sustainable {
-    left: 50px;  
+    position: absolute;
+    left: 51px;
+    bottom: 80px;
+    background-color: rgb(13, 121, 94);
+    padding: 5px;
 }
 
 #last-sustainable {
-    left: 0; 
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    background-color: rgb(13, 121, 94);
+    padding: 5px;
 }
 
 #heart {
-    font-size: 30px;
-    background-color: white;
-    padding: 10px 15px;
     position: absolute;
     top: 20px;
     right: 0;
+    font-size: 30px;
+    background-color: white;
+    padding: 10px 15px;
 }
 
 #current-price {
@@ -76,3 +78,6 @@
 #old-price {
     text-decoration: line-through;
 }
+
+
+   
