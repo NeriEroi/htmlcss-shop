@@ -6,8 +6,45 @@
 .image-container {
     width: 33%;
     display: inline-block;
+    position: relative;
 }
 
 .image-container img {
     width: 100%;
+}
+
+#discount, #sustainable {
+    color: white;
+}
+
+#discount {
+    position: absolute;
+    top: 430px;
+    background-color: orangered;
+    padding: 5px;
+}
+
+#sustainable {
+    position: absolute;
+    top: 430px;
+    left: 50px;
+    background-color:lightseagreen;
+    padding: 5px;
+}
+
+#heart {
+    font-size: 30px;
+    background-color: white;
+    padding: 10px 15px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+#current-price {
+    color: red;
+}
+
+#old-price {
+    text-decoration: line-through;
 }
