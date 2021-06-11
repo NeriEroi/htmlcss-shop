@@ -13,7 +13,7 @@
     width: 100%;
 }
 
-#discount, #sustainable {
+#discount, #sustainable, #last-sustainable {
     color: white;
 }
 
@@ -24,12 +24,20 @@
     padding: 5px;
 }
 
-#sustainable {
+#sustainable, #last-sustainable {
     position: absolute;
     top: 430px;
-    left: 50px;
     background-color:lightseagreen;
     padding: 5px;
+
+}
+
+#sustainable {
+    left: 50px;  
+}
+
+#last-sustainable {
+    left: 0; 
 }
 
 #heart {
