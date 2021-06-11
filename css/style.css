@@ -1,0 +1,13 @@
+.container {
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.image-container {
+    width: 33%;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 100%;
+}
