@@ -13,6 +13,18 @@
     width: 100%;
 }
 
+.image-container:hover img {
+    display: none;
+}
+
+.image-container img.turn-image {
+    display: none;
+}
+
+.image-container:hover img.turn-image {
+    display: block;
+}
+
 #discount, #sustainable, #last-sustainable {
     color: white;
 }
