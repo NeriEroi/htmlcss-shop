@@ -9,15 +9,12 @@
     margin: 15px auto;
 }
 
-.row {
-    height: 50%;
-}
-
 .item {
-    width: 33%;
+    width: 30%;
     background-color: white;
     position: relative;
-    display: inline-block;    
+    display: inline-block; 
+    margin: 5px 3px;
 }
 
 div.image img {
